@@ -69,11 +69,11 @@ model, tokenizer = load_model_and_tokenizer('Yuki20/llama3_8b_sql3')
 
 async def execute_query(query: str):
     # Set your project-specific variables
-    project_id = "adsp-capstone-utku-team4"
+    project_id = ""
     region = "us-west2"
     instance_name = "pg15-pgvector-demo"  # replace with your Cloud SQL instance name
     database_user = "admin"  # replace with your database user
-    database_password = "521521"  # replace with your database password
+    database_password = ""  # replace with your database password
     database_name = "patient_record"  # replace with your database name
 
     loop = asyncio.get_running_loop()

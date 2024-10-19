@@ -1,4 +1,4 @@
-# Ai-hackathon
+# Ai-hackathon - Second place Winner
 Ai-hackathon for Uchicago DSI
 
 ![image](https://github.com/yuki-2025/Ai-hackathon/assets/159591455/fbc29a05-dfaa-4df8-8313-7be4d43e9777)

@@ -1,6 +1,24 @@
 # Ai-hackathon - Second place Winner
 Ai-hackathon for Uchicago DSI
 
+We built Genesis.AI, a retrieval-augmented chatbot that securely accesses patient records and answers general medical questions. To enable a seamless, end-to-end medical Q&A chatbot using entirely open-source tools. Our stack includes:
+
+- **LangChain** for orchestration
+- **PostgreSQL** (with vector embeddings) as both relational and vector databases
+- **Streamlit** for the front-end
+- **Google Cloud Vertex AI** to host and fine-tune **Llama 3-8B**
+
+Key innovations:
+
+1. **Dynamic SQL Generation**
+    - Fine-tuned Llama 3-8B to translate natural-language medical queries into SQL on the fly.
+    - Executes those SQL queries against patient tables and metadata.
+2. **Vector Retrieval**
+    - Indexes medical reports in PostgreSQL’s vector store.
+    - Uses the same SQL-driven pipeline to retrieve relevant unstructured data.
+3. **Accurate Response Generation**
+    - Further fine-tuned Llama 3-8B to synthesize structured and vector-retrieved information into precise, context-aware answers.
+
 ![image](https://github.com/yuki-2025/Ai-hackathon/assets/159591455/fbc29a05-dfaa-4df8-8313-7be4d43e9777)
 
 

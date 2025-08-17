@@ -1,4 +1,4 @@
-# Ai-hackathon - Second place Winner
+# AI Hackathon 2024 @ UChicago DSI – 2nd Place
 Ai-hackathon for Uchicago DSI
 
 We built Genesis.AI, a retrieval-augmented chatbot that securely accesses patient records and answers general medical questions. To enable a seamless, end-to-end medical Q&A chatbot using entirely open-source tools. Our stack includes:
